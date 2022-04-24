@@ -7,10 +7,11 @@ using namespace std;
 
 int main()
 {
-    vector<vector<string>>numList;
+    vector<vector<string>>List2D;
+    vector<string>List1D;
     string lineStr;
     ifstream file;
-    file.open("E:\\CodeField1\\Code_Python\\Python_Single\\weather.csv");
+    file.open("E:\\CodeField1\\for-test.csv");
     if (!file)
     {
         return false;
@@ -24,8 +25,9 @@ int main()
         while (getline(line, str,','))
         {
             list.push_back(str);
+            List1D.push_back(str);
         }
-        numList.push_back(list);
+        List2D.push_back(list);
     }
     file.close();
     return 0;
