@@ -20,7 +20,7 @@ for row in data:
     obv2s.append(obv2)
 
 #绘制折线图
-fig=plt.figure(dpi=128,figsize=(8,6))           #初始化figure窗口，可绘制多条曲线
+fig=plt.figure(dpi=128,figsize=(7,6))           #初始化figure窗口，可绘制多条曲线
 plt.plot(times,obv1s)
 plt.plot(times,obv2s)
 
