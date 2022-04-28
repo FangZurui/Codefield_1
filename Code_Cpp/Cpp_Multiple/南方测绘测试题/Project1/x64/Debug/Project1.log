@@ -1,0 +1,5 @@
+﻿  1.cpp
+  2.cpp
+  正在生成代码...
+2.obj : error LNK2005: main 已经在 1.obj 中定义
+E:\CodeField1\Code_Cpp\Cpp_Multiple\南方测绘测试题\x64\Debug\Project1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
