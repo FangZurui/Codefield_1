@@ -1,0 +1,19 @@
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: lightskyblue;
+    font-size: 60px;
+}
+img{
+    width: 300px;
+    display: block;
+    margin:0;
+}
+div{
+    font-size: 30px;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    margin-left: 0px;
+    margin-right: 200px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vue 实例测试</title>
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="hello-vue" class="demo">
+            {{message}}
+        </div>
+
+        <script>
+            const HelloVueApp={
+                data(){
+                    return{
+                        message:'hello vue!'
+                    }
+                }
+            }
+            Vue.createApp(HelloVueApp).mount('#hello-vue')
+        </script>
+    </body>
+</html>
